@@ -59,7 +59,6 @@
   border-radius: 10px;
 }
 .images {
-
   padding: 100px;
 }
 
@@ -70,6 +69,7 @@
   margin: 10px;
   display: flex;
   gap: 20px;
+  
 }
 
 .text-container{
@@ -123,4 +123,46 @@ button{
 .actual-price{
     padding-top: 10px;
     text-decoration: line-through;
+}
+
+@media screen and (max-width:500px) {
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+       
+       
+    }
+    .thumbnail-img{
+        display: none;
+    }
+    .main-img{
+        width: 400px;
+      
+     
+
+    }
+    .img-1{
+        width: 650px;
+        height: auto;
+        background-size: cover;
+        border-radius: 0px;
+    }
+    .text-container{
+       margin-left: 50px;
+       
+    }
+    .brand-name{
+        font-size: 30px;
+
+    }
+    .list{
+        display: none;
+    }
+    .cart-img{
+        gap: 30px;
+    }
+    .nav-bar{
+        gap: 300px;
+        border-style: none;
+    }
 }
