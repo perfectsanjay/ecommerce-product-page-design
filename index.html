@@ -43,6 +43,7 @@
         <div class="main-img">
           <img
             class="img-1"
+            id="img-1"
             src="./images/image-product-1.jpg"
             alt="shoe-picture"
           />
@@ -51,21 +52,25 @@
           <div class="thumbnail-img">
             <img
               class="img-2"
+              id="tumbnail"
               src="./images/image-product-1-thumbnail.jpg"
               alt="more-img"
             />
             <img
               class="img-3"
+              id="tumbnail"
               src="./images/image-product-2-thumbnail.jpg"
               alt="next-img"
             />
             <img
               class="img-4"
+              id="tumbnail"
               src="./images/image-product-3-thumbnail.jpg"
               alt="next-img"
             />
             <img
               class="img-5"
+              id="tumbnail"
               src="./images/image-product-4-thumbnail.jpg"
               alt="next-img"
             />
@@ -90,11 +95,11 @@
         <div class="main-price"><p class="actual-price">$250.00</p></div>
         <div class="button-count">
           <div class="product-count">
-            <div><p class="minus">-</p></div>
-            <div><p>0</p></div>
-            <div><p class="sum">+</p></div>
+            <div><button class="minus" id="minus">-</button></div>
+            <span class="quantity" id="quantity" >0</span>
+            <div><button class="sum" id="sum">+</button></div>
           </div>
-          <button>Add To Cart</button>
+          <button class="button-cart" id="cart-button">Add To Cart</button>
         </div>
       </div>
       </div>

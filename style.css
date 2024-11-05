@@ -105,7 +105,7 @@
     padding: 10px;
     border-radius: 5px;
 }
-button{
+.button-cart{
     background-color: hsl(26, 100%, 55%);
     border-style: none;
     width: 200px;
@@ -123,6 +123,13 @@ button{
 .actual-price{
     padding-top: 10px;
     text-decoration: line-through;
+}
+.minus{
+ border-style: none;
+ 
+}
+.sum{
+ border-style: none;
 }
 
 @media screen and (max-width:500px) {
